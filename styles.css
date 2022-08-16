@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: 17vw 83vw;
+    grid-template-rows: repeat(2,1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    background-color: pink;
+}
+
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #2C99C6;
+}
+.header{
+    height: 20vh;
+}
+.content{
+    height: 80vh;
+}
+.icon{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.svg{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: large;
+    color: wheat;
+}
+li{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.secondarylinks{
+    margin-top: 100px;
+}
