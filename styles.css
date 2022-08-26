@@ -60,7 +60,7 @@ li:hover{
 
 
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(172, 184, 201);
     padding: 1rem 1rem;
 }
 
@@ -69,8 +69,8 @@ li:hover{
     justify-content: space-between;
     margin-top: 8px;
     margin-right: 8px;
-
 }
+
 .user{
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ li:hover{
     height: 1.3rem;
     flex: 1;
     border-radius: 20px;
-    background-color: #e4ddf4;
+    background-color: white;
     border: none;
     outline: none;
 }
@@ -123,7 +123,7 @@ li:hover{
 }
 .header-button{
     color: white;
-    background-color: #68a8f1;
+    background-color: #0C2D48;
     border: none;
     width: 6rem;
     height: 2rem;
@@ -148,8 +148,8 @@ li:hover{
 .content{ 
     display: grid;
     min-height: 80vh;
-    background-color: pink;
-    box-shadow: inset 3px 3px 3px #845ad3;
+    background-color: #B1D4E0;
+    box-shadow: inset 1px 1px 1px #145DA0;
     grid-template-columns: 3fr 1fr;
     padding: 20px;
     gap: 1rem;
@@ -182,7 +182,7 @@ li:hover{
 
 .color{
     grid-row: 1/-1;
-    background: yellow;
+    background: #0c2d48;
     border-radius: 20px 0 0 20px;
     width: 75%;
 }
@@ -208,7 +208,7 @@ li:hover{
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
-    background-color: pink;
+    background-color: #B1D4E0;
 }
 
 .announ-and-trending >div{
